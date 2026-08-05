@@ -20,7 +20,6 @@
   </filter>
 </defs>
 <style><![CDATA[
-  .f  { font-family:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif; }
   .m  { font-family:"Georgia","Iowan Old Style","Times New Roman",serif; }
   .mo { font-family:"JetBrains Mono","SF Mono","Consolas",monospace; }
   @keyframes sweep { 0% { transform: translateX(-120px); } 100% { transform: translateX(760px); } }
@@ -36,12 +35,11 @@
 <rect width="860" height="430" rx="14" fill="url(#bg)" stroke="#e3b873" stroke-opacity=".22"/>
 
 <!-- header -->
-<text class="f" x="36" y="50" font-size="24" fill="#e3b873" letter-spacing="4">修为境界</text>
-<text class="m" x="146" y="49" font-size="14" fill="#6f8697" letter-spacing="2">CULTIVATION REALMS</text>
-<text class="mo" x="824" y="49" font-size="12" fill="#4f6376" text-anchor="end">道行 / dao progress</text>
+<text class="m" x="36" y="50" font-size="22" fill="#e3b873" letter-spacing="5">CULTIVATION REALMS</text>
+<text class="mo" x="824" y="49" font-size="12" fill="#4f6376" text-anchor="end">depth of practice</text>
 <path d="M36 64 H824" stroke="#e3b873" stroke-opacity=".18"/>
 
-<!-- meridian channel on the left -->
+<!-- energy channel on the left -->
 <path d="M22 80 V400" stroke="#63d2a5" stroke-opacity=".18" stroke-width="1.4"/>
 <g fill="#63d2a5">
   <circle class="flow" cx="22" cy="80" r="2.4" opacity="0"/>
@@ -52,8 +50,7 @@
 <!-- ROW 1 : 96 -->
 <g>
   <text class="m" x="44" y="104" font-size="15" fill="#eae3d4">Python</text>
-  <text class="f" x="212" y="105" font-size="15" fill="#e3b873">大乘</text>
-  <text class="m" x="252" y="104" font-size="12" fill="#6f8697">Mahayana</text>
+  <text class="m" x="200" y="104" font-size="13" fill="#e3b873">Great Ascension</text>
   <rect x="380" y="95" width="380" height="9" rx="4.5" fill="#1b2530"/>
   <rect x="380" y="95" height="9" rx="4.5" fill="url(#qiGold)" width="0">
     <animate attributeName="width" from="0" to="365" dur="1.8s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -67,8 +64,7 @@
 <!-- ROW 2 : 90 -->
 <g>
   <text class="m" x="44" y="156" font-size="15" fill="#eae3d4">Machine Learning</text>
-  <text class="f" x="212" y="157" font-size="15" fill="#e3b873">化神</text>
-  <text class="m" x="252" y="156" font-size="12" fill="#6f8697">Deity Transformation</text>
+  <text class="m" x="200" y="156" font-size="13" fill="#e3b873">Spirit Severing</text>
   <rect x="380" y="147" width="380" height="9" rx="4.5" fill="#1b2530"/>
   <rect x="380" y="147" height="9" rx="4.5" fill="url(#qiGold)" width="0">
     <animate attributeName="width" from="0" to="342" dur="1.8s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -82,8 +78,7 @@
 <!-- ROW 3 : 84 -->
 <g>
   <text class="m" x="44" y="208" font-size="15" fill="#eae3d4">TypeScript</text>
-  <text class="f" x="212" y="209" font-size="15" fill="#8fd9bb">元婴</text>
-  <text class="m" x="252" y="208" font-size="12" fill="#6f8697">Nascent Soul</text>
+  <text class="m" x="200" y="208" font-size="13" fill="#8fd9bb">Nascent Soul</text>
   <rect x="380" y="199" width="380" height="9" rx="4.5" fill="#1b2530"/>
   <rect x="380" y="199" height="9" rx="4.5" fill="url(#qi)" width="0">
     <animate attributeName="width" from="0" to="319" dur="1.8s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -97,8 +92,7 @@
 <!-- ROW 4 : 78 -->
 <g>
   <text class="m" x="44" y="260" font-size="15" fill="#eae3d4">React / Next.js</text>
-  <text class="f" x="212" y="261" font-size="15" fill="#8fd9bb">金丹</text>
-  <text class="m" x="252" y="260" font-size="12" fill="#6f8697">Core Formation</text>
+  <text class="m" x="200" y="260" font-size="13" fill="#8fd9bb">Core Formation</text>
   <rect x="380" y="251" width="380" height="9" rx="4.5" fill="#1b2530"/>
   <rect x="380" y="251" height="9" rx="4.5" fill="url(#qi)" width="0">
     <animate attributeName="width" from="0" to="296" dur="1.8s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -112,8 +106,7 @@
 <!-- ROW 5 : 70 -->
 <g>
   <text class="m" x="44" y="312" font-size="15" fill="#eae3d4">Docker / Cloud</text>
-  <text class="f" x="212" y="313" font-size="15" fill="#8fd9bb">筑基</text>
-  <text class="m" x="252" y="312" font-size="12" fill="#6f8697">Foundation Establishment</text>
+  <text class="m" x="200" y="312" font-size="13" fill="#8fd9bb">Foundation Establishment</text>
   <rect x="380" y="303" width="380" height="9" rx="4.5" fill="#1b2530"/>
   <rect x="380" y="303" height="9" rx="4.5" fill="url(#qi)" width="0">
     <animate attributeName="width" from="0" to="266" dur="1.8s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -127,8 +120,7 @@
 <!-- ROW 6 : 62 -->
 <g>
   <text class="m" x="44" y="364" font-size="15" fill="#eae3d4">Rust / Systems</text>
-  <text class="f" x="212" y="365" font-size="15" fill="#8fd9bb">炼气</text>
-  <text class="m" x="252" y="364" font-size="12" fill="#6f8697">Qi Condensation</text>
+  <text class="m" x="200" y="364" font-size="13" fill="#8fd9bb">Breath Gathering</text>
   <rect x="380" y="355" width="380" height="9" rx="4.5" fill="#1b2530"/>
   <rect x="380" y="355" height="9" rx="4.5" fill="url(#qi)" width="0">
     <animate attributeName="width" from="0" to="236" dur="1.8s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
@@ -145,5 +137,5 @@
   <rect class="sweep" x="0" y="80" width="50" height="320" fill="url(#shine)"/>
 </g>
 
-<text class="f" x="36" y="404" font-size="12" fill="#4f6376">境界无止 · the ladder has no top rung</text>
+<text class="m" x="36" y="404" font-size="12" fill="#4f6376">the ladder has no top rung</text>
 </svg>

@@ -16,7 +16,6 @@
   <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
 </defs>
 <style><![CDATA[
-  .f  { font-family:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif; }
   .m  { font-family:"Georgia","Iowan Old Style","Times New Roman",serif; }
   .mo { font-family:"JetBrains Mono","SF Mono","Consolas",monospace; }
   @keyframes flick { 0%,6%,100% { opacity:0; } 1% { opacity:1; } 2% { opacity:.15; } 3% { opacity:.95; } 4.5% { opacity:.25; } }
@@ -51,7 +50,7 @@
   <path class="bolt3" d="M580 58 L566 100 L578 100 L558 152 L594 96 L578 96 L596 58 Z" opacity="0"/>
 </g>
 
-<!-- peak + cultivator withstanding the tribulation -->
+<!-- peak, and one figure standing through the storm -->
 <path d="M560 240 L640 168 L690 210 L740 176 L820 240 Z" fill="#0a0f14"/>
 <g class="hoverY" transform="translate(690,150)">
   <circle class="shield" r="26" fill="none" stroke="#63d2a5"/>
@@ -64,15 +63,14 @@
 </g>
 
 <!-- copy -->
-<text class="f" x="44" y="56" font-size="22" fill="#e2513f" letter-spacing="5">天劫</text>
-<text class="m" x="112" y="55" font-size="13" fill="#6f8697" letter-spacing="3">CURRENT TRIBULATIONS</text>
+<text class="m" x="44" y="54" font-size="18" fill="#e2513f" letter-spacing="5">TRIALS OF THE MOMENT</text>
 <path d="M44 70 H470" stroke="#e3b873" stroke-opacity=".18"/>
 
 <g class="mo" font-size="13.5" fill="#cfe6db">
-  <text x="44" y="106"><tspan fill="#e3b873">◈</tspan>  building — an agentic system that refuses to sleep</text>
-  <text x="44" y="136"><tspan fill="#e3b873">◈</tspan>  refining — Rust, low-level, one page at a time</text>
-  <text x="44" y="166"><tspan fill="#e3b873">◈</tspan>  seeking — open-source disciples &amp; collaborators</text>
-  <text x="44" y="196"><tspan fill="#e3b873">◈</tspan>  ask me about — Python, ML, and clean architecture</text>
+  <text x="44" y="106"><tspan fill="#e3b873">&#9670;</tspan>  building — an agentic system that refuses to sleep</text>
+  <text x="44" y="136"><tspan fill="#e3b873">&#9670;</tspan>  refining — Rust, low-level, one page at a time</text>
+  <text x="44" y="166"><tspan fill="#e3b873">&#9670;</tspan>  seeking — open-source collaborators and sparring partners</text>
+  <text x="44" y="196"><tspan fill="#e3b873">&#9670;</tspan>  ask me about — Python, ML, and clean architecture</text>
 </g>
-<text class="f" x="44" y="222" font-size="11.5" fill="#4f6376">渡劫成仙，失败成盒 · pass and ascend, fail and respawn</text>
+<text class="m" x="44" y="222" font-size="11.5" fill="#4f6376">survive the lightning and you ascend; fail and you respawn</text>
 </svg>

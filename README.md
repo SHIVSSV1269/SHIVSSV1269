@@ -1,6 +1,6 @@
 <!--
   ┌─────────────────────────────────────────────────────────────┐
-  │  道 · GitHub profile README for SHIVSSV1269                 │
+  │  GitHub profile README for SHIVSSV1269                      │
   │  Everything visual lives in /assets as hand-written SVG.    │
   │  Edit text inside those files to change what the art says.  │
   │  See CUSTOMIZE.md for the 5-minute tour.                    │
@@ -9,11 +9,11 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" alt="道法自然 — SHIVSSV1269" width="100%" />
+<img src="assets/banner.svg" alt="The Way Follows Nature — SHIVSSV1269" width="100%" />
 
 <br/>
 
-<samp>「 上善若水 · the highest good is like water 」</samp><br/>
+<samp>— the highest good is like water —</samp><br/>
 <samp>it benefits all things and contends with none — and so does good code</samp>
 
 <img src="assets/divider.svg" alt="" width="90%" />
@@ -24,24 +24,24 @@
 <tr>
 <td width="72%" valign="top">
 
-### 入门 · The Disciple
+### The Disciple
 
 I sat down at a keyboard one day and never got back up.
 
-- 🜁 &nbsp;**Sect** — self-taught, still sweeping the courtyard
-- 🜂 &nbsp;**Method** — read the source, break it, understand it, rewrite it
-- 🜃 &nbsp;**Focus** — backends that don't fall over, models that actually ship
-- 🜄 &nbsp;**Vow** — no dead code, no dead docs, no dead links
-- ☯ &nbsp;**Balance** — yin is the tests, yang is the feature. Ship neither alone.
+- **School** — self-taught, still sweeping the courtyard
+- **Method** — read the source, break it, understand it, rewrite it
+- **Focus** — backends that don't fall over, models that actually ship
+- **Vow** — no dead code, no dead docs, no dead links
+- **Balance** — yin is the tests, yang is the feature. Ship neither alone.
 
 > *"A journey of a thousand commits begins with a single `git init`."*
 
 </td>
 <td width="28%" align="center" valign="middle">
 
-<img src="assets/taiji-spinner.svg" alt="taiji" width="130" />
+<img src="assets/yin-yang.svg" alt="yin and yang" width="130" />
 
-<sub>**阴阳**</sub><br/>
+<sub>**YIN & YANG**</sub><br/>
 <sub>bug ⟷ feature</sub>
 
 </td>
@@ -64,7 +64,7 @@ I sat down at a keyboard one day and never got back up.
 
 <div align="center">
 
-<img src="assets/tribulation.svg" alt="Heavenly tribulation — what I'm working on" width="94%" />
+<img src="assets/tribulation.svg" alt="Trials of the moment — what I'm working on" width="94%" />
 
 </div>
 
@@ -74,9 +74,9 @@ I sat down at a keyboard one day and never got back up.
 
 <div align="center">
 
-### 八卦阵 · The Formation
+### The Formation
 
-<img src="assets/bagua-stack.svg" alt="Bagua formation — tech stack" width="440" />
+<img src="assets/trigrams.svg" alt="Eight-trigram formation — tech stack" width="440" />
 
 </div>
 
@@ -86,9 +86,9 @@ I sat down at a keyboard one day and never got back up.
 
 <div align="center">
 
-### 洞府 · The Cave Abode
+### The Mountain Retreat
 
-<!-- These three cards come from github-readme-stats (a third-party service).
+<!-- These cards come from github-readme-stats (a third-party service).
      Delete this block if you'd rather keep the profile 100% self-hosted. -->
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=SHIVSSV1269&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E3B873&icon_color=63D2A5&text_color=CFE6DB&include_all_commits=true&rank_icon=percentile" alt="stats" />
@@ -106,7 +106,7 @@ I sat down at a keyboard one day and never got back up.
 
 <div align="center">
 
-### 道友 · Dao Companions
+### Fellow Travelers
 
 <!-- swap these for your real links -->
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E3B873)](https://github.com/SHIVSSV1269)
@@ -116,9 +116,9 @@ I sat down at a keyboard one day and never got back up.
 
 <br/>
 
-<img src="assets/taiji-spinner.svg" alt="" width="64" />
+<img src="assets/yin-yang.svg" alt="" width="64" />
 
-<sub>**福生无量天尊** · may your builds be green and your merges clean</sub>
+<sub>**may your builds be green and your merges clean**</sub>
 
 <sub><i>no snakes were fed contribution squares in the making of this profile</i></sub>
 

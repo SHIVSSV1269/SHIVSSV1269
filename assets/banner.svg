@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Dao of Code - animated ink banner">
-<title>入道 · Entering the Dao</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Entering the Way - animated ink banner">
+<title>Entering the Way</title>
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%"   stop-color="#070a0e"/>
@@ -34,11 +34,10 @@
     <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
   <clipPath id="frame"><rect x="0" y="0" width="1000" height="320" rx="14"/></clipPath>
-  <clipPath id="typeClip"><rect id="typeRect" x="60" y="196" width="0" height="30"/></clipPath>
+  <clipPath id="typeClip"><rect class="typeRect" x="60" y="196" width="0" height="30"/></clipPath>
 </defs>
 
 <style><![CDATA[
-  .f { font-family: "Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif; }
   .m { font-family: "Georgia","Iowan Old Style","Times New Roman",serif; }
 
   @keyframes spin      { to { transform: rotate(360deg); } }
@@ -52,7 +51,7 @@
                          100% { transform: translateY(-210px) scale(1.15); opacity:0; } }
   @keyframes draw      { to { stroke-dashoffset: 0; } }
   @keyframes fillIn    { to { fill-opacity: 1; } }
-  @keyframes type      { 0% { width:0; } 55% { width:470px; } 92% { width:470px; } 100% { width:470px; } }
+  @keyframes type      { 0% { width:0; } 55% { width:470px; } 100% { width:470px; } }
   @keyframes caret     { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
   @keyframes sealPulse { 0%,100% { transform: scale(1); opacity:.92; } 50% { transform: scale(1.05); opacity:1; } }
   @keyframes halo      { 0%,100% { r: 118; opacity:.20; } 50% { r: 132; opacity:.06; } }
@@ -70,10 +69,6 @@
   .mote:nth-of-type(6)  { animation-duration: 13.4s; animation-delay: -7.3s; }
   .mote:nth-of-type(7)  { animation-duration: 10.2s; animation-delay: -4.4s; }
   .mote:nth-of-type(8)  { animation-duration: 7.8s;  animation-delay: -6.1s; }
-  .mote:nth-of-type(9)  { animation-duration: 11.9s; animation-delay: -8.5s; }
-  .mote:nth-of-type(10) { animation-duration: 9.1s;  animation-delay: -0.6s; }
-  .mote:nth-of-type(11) { animation-duration: 12.8s; animation-delay: -9.7s; }
-  .mote:nth-of-type(12) { animation-duration: 8.6s;  animation-delay: -5.8s; }
 
   .nameStroke { fill: none; stroke: url(#goldText); stroke-width: 1.1;
                 stroke-dasharray: 1400; stroke-dashoffset: 1400;
@@ -93,7 +88,7 @@
 <g clip-path="url(#frame)">
   <rect width="1000" height="320" fill="url(#sky)"/>
 
-  <!-- distant moon glow behind the taiji -->
+  <!-- distant moon glow behind the yin-yang -->
   <circle cx="830" cy="158" r="150" fill="url(#moon)" opacity=".28"/>
 
   <!-- drifting mist bands -->
@@ -121,7 +116,7 @@
     <path d="M186 262 L170 252 M186 268 L202 258 M186 276 L172 268 M186 258 L198 248" stroke-width="2.2"/>
   </g>
 
-  <!-- rising qi motes -->
+  <!-- rising energy motes -->
   <g fill="#8fe3c4">
     <circle class="mote" cx="700" cy="300" r="2.2" opacity="0"/>
     <circle class="mote" cx="745" cy="308" r="1.6" opacity="0"/>
@@ -139,43 +134,43 @@
     <circle class="mote" cx="906" cy="316" r="1.6" opacity="0"/>
   </g>
 
-  <!-- ================= TAIJI + BAGUA ================= -->
+  <!-- ============== YIN-YANG + TRIGRAM RING ============== -->
   <circle class="halo" cx="830" cy="158" r="118" fill="none" stroke="#e3b873" stroke-width=".8" opacity=".2"/>
 
   <g class="ring">
     <circle cx="830" cy="158" r="104" fill="none" stroke="#e3b873" stroke-width=".7" opacity=".35"/>
     <circle cx="830" cy="158" r="126" fill="none" stroke="#e3b873" stroke-width=".5" opacity=".18"/>
-    <!-- 8 trigrams, drawn top-to-bottom lines; s = solid, b = broken -->
+    <!-- eight trigrams; lines drawn top to bottom, unbroken = yang, split = yin -->
     <g stroke="#e3b873" stroke-width="3.4" stroke-linecap="round" opacity=".8">
-      <!-- ☰ Qian (north) -->
+      <!-- Heaven -->
       <g transform="translate(830,158) rotate(0) translate(0,-115)">
         <path d="M-11 -6 H11"/><path d="M-11 0 H11"/><path d="M-11 6 H11"/>
       </g>
-      <!-- ☱ Dui -->
+      <!-- Lake -->
       <g transform="translate(830,158) rotate(45) translate(0,-115)">
         <path d="M-11 -6 H-3"/><path d="M3 -6 H11"/><path d="M-11 0 H11"/><path d="M-11 6 H11"/>
       </g>
-      <!-- ☲ Li (east) -->
+      <!-- Fire -->
       <g transform="translate(830,158) rotate(90) translate(0,-115)">
         <path d="M-11 -6 H11"/><path d="M-11 0 H-3"/><path d="M3 0 H11"/><path d="M-11 6 H11"/>
       </g>
-      <!-- ☳ Zhen -->
+      <!-- Thunder -->
       <g transform="translate(830,158) rotate(135) translate(0,-115)">
         <path d="M-11 -6 H-3"/><path d="M3 -6 H11"/><path d="M-11 0 H-3"/><path d="M3 0 H11"/><path d="M-11 6 H11"/>
       </g>
-      <!-- ☷ Kun (south) -->
+      <!-- Earth -->
       <g transform="translate(830,158) rotate(180) translate(0,-115)">
         <path d="M-11 -6 H-3"/><path d="M3 -6 H11"/><path d="M-11 0 H-3"/><path d="M3 0 H11"/><path d="M-11 6 H-3"/><path d="M3 6 H11"/>
       </g>
-      <!-- ☶ Gen -->
+      <!-- Mountain -->
       <g transform="translate(830,158) rotate(225) translate(0,-115)">
         <path d="M-11 -6 H11"/><path d="M-11 0 H-3"/><path d="M3 0 H11"/><path d="M-11 6 H-3"/><path d="M3 6 H11"/>
       </g>
-      <!-- ☵ Kan (west) -->
+      <!-- Water -->
       <g transform="translate(830,158) rotate(270) translate(0,-115)">
         <path d="M-11 -6 H-3"/><path d="M3 -6 H11"/><path d="M-11 0 H11"/><path d="M-11 6 H-3"/><path d="M3 6 H11"/>
       </g>
-      <!-- ☴ Xun -->
+      <!-- Wind -->
       <g transform="translate(830,158) rotate(315) translate(0,-115)">
         <path d="M-11 -6 H11"/><path d="M-11 0 H11"/><path d="M-11 6 H-3"/><path d="M3 6 H11"/>
       </g>
@@ -192,26 +187,32 @@
     </g>
   </g>
 
-  <!-- ================= TEXT ================= -->
-  <text class="f breathe" x="60" y="96" font-size="46" fill="#e2513f" opacity=".75" letter-spacing="10">道法自然</text>
+  <!-- ===================== TEXT ===================== -->
+  <text class="m breathe" x="62" y="80" font-size="17" fill="#e2513f" letter-spacing="7">THE WAY FOLLOWS NATURE</text>
 
-  <text class="m nameStroke" x="60" y="164" font-size="58" font-weight="700" letter-spacing="2">SHIVSSV1269</text>
-  <text class="m nameFill"   x="60" y="164" font-size="58" font-weight="700" letter-spacing="2">SHIVSSV1269</text>
+  <text class="m nameStroke" x="60" y="156" font-size="58" font-weight="700" letter-spacing="2">SHIVSSV1269</text>
+  <text class="m nameFill"   x="60" y="156" font-size="58" font-weight="700" letter-spacing="2">SHIVSSV1269</text>
 
   <g clip-path="url(#typeClip)">
-    <text class="m" x="60" y="218" font-size="19" fill="#9ec7b6" letter-spacing=".6">
+    <text class="m" x="60" y="216" font-size="19" fill="#9ec7b6" letter-spacing=".6">
       Cultivating code, one breakthrough at a time.
     </text>
   </g>
-  <rect class="caret" x="60" y="200" width="2" height="22" fill="#63d2a5" opacity=".9">
+  <rect class="caret" x="60" y="198" width="2" height="22" fill="#63d2a5" opacity=".9">
     <animate attributeName="x" values="62;532;532;62" dur="6s" begin="1.2s" repeatCount="indefinite" keyTimes="0;0.55;0.92;1" calcMode="linear"/>
   </rect>
 
-  <!-- red seal -->
+  <!-- seal, stamped with a small yin-yang instead of a character -->
   <g class="seal">
     <rect x="912" y="234" width="56" height="56" rx="7" fill="#a8271c" opacity=".92"/>
     <rect x="917" y="239" width="46" height="46" rx="4" fill="none" stroke="#f4efe4" stroke-width="1.6" opacity=".8"/>
-    <text class="f" x="940" y="273" font-size="30" fill="#f4efe4" text-anchor="middle">道</text>
+    <g transform="translate(940,262) scale(0.165)">
+      <circle r="100" fill="#f4efe4"/>
+      <path d="M 0,-100 A 100,100 0 0,1 0,100 A 50,50 0 0,1 0,0 A 50,50 0 0,0 0,-100 Z" fill="#a8271c"/>
+      <circle cx="0" cy="-50" r="16" fill="#a8271c"/>
+      <circle cx="0" cy="50"  r="16" fill="#f4efe4"/>
+      <circle r="100" fill="none" stroke="#f4efe4" stroke-width="7" opacity=".9"/>
+    </g>
   </g>
 
   <rect x="0.5" y="0.5" width="999" height="319" rx="14" fill="none" stroke="#e3b873" stroke-opacity=".28"/>
