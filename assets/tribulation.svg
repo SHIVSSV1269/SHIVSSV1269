@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="Heavenly tribulation - currently working on">
+<defs>
+  <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#080b10"/><stop offset="60%" stop-color="#0d131a"/><stop offset="100%" stop-color="#131b24"/>
+  </linearGradient>
+  <radialGradient id="cloud" cx="50%" cy="60%" r="60%">
+    <stop offset="0%" stop-color="#33404f"/><stop offset="100%" stop-color="#161d26" stop-opacity=".2"/>
+  </radialGradient>
+  <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="45%" stop-color="#a9e6ff"/><stop offset="100%" stop-color="#5bc8ff"/>
+  </linearGradient>
+  <filter id="zap" x="-100%" y="-60%" width="300%" height="220%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<style><![CDATA[
+  .f  { font-family:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif; }
+  .m  { font-family:"Georgia","Iowan Old Style","Times New Roman",serif; }
+  .mo { font-family:"JetBrains Mono","SF Mono","Consolas",monospace; }
+  @keyframes flick { 0%,6%,100% { opacity:0; } 1% { opacity:1; } 2% { opacity:.15; } 3% { opacity:.95; } 4.5% { opacity:.25; } }
+  @keyframes flash { 0%,7%,100% { opacity:0; } 1.5% { opacity:.22; } 3.5% { opacity:.12; } }
+  @keyframes churn { 0%,100% { transform: translateX(0) scale(1); } 50% { transform: translateX(-16px) scale(1.04); } }
+  @keyframes hover { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+  @keyframes shield{ 0%,100% { opacity:.25; stroke-width:1; } 50% { opacity:.7; stroke-width:2; } }
+  .bolt1 { animation: flick 6s linear infinite; }
+  .bolt2 { animation: flick 6s linear 2.1s infinite; }
+  .bolt3 { animation: flick 6s linear 4.3s infinite; }
+  .flash { animation: flash 6s linear infinite; }
+  .churn { animation: churn 14s ease-in-out infinite; }
+  .hoverY{ animation: hover 4s ease-in-out infinite; }
+  .shield{ animation: shield 2.6s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) { .bolt1,.bolt2,.bolt3,.flash,.churn,.hoverY,.shield { animation: none; } .bolt1 { opacity:.8; } }
+]]></style>
+
+<rect width="900" height="240" rx="14" fill="url(#tbg)" stroke="#e3b873" stroke-opacity=".2"/>
+<rect class="flash" width="900" height="240" rx="14" fill="#bfe9ff"/>
+
+<!-- storm clouds -->
+<g class="churn" opacity=".9">
+  <ellipse cx="640" cy="46" rx="150" ry="34" fill="url(#cloud)" filter="url(#soft2)"/>
+  <ellipse cx="760" cy="58" rx="120" ry="26" fill="url(#cloud)" filter="url(#soft2)"/>
+  <ellipse cx="520" cy="40" rx="110" ry="24" fill="url(#cloud)" filter="url(#soft2)"/>
+</g>
+
+<!-- lightning -->
+<g fill="url(#bolt)" filter="url(#zap)">
+  <path class="bolt1" d="M676 62 L654 122 L672 122 L644 196 L692 116 L672 116 L698 62 Z"/>
+  <path class="bolt2" d="M772 66 L756 112 L770 112 L748 172 L786 108 L770 108 L790 66 Z" opacity="0"/>
+  <path class="bolt3" d="M580 58 L566 100 L578 100 L558 152 L594 96 L578 96 L596 58 Z" opacity="0"/>
+</g>
+
+<!-- peak + cultivator withstanding the tribulation -->
+<path d="M560 240 L640 168 L690 210 L740 176 L820 240 Z" fill="#0a0f14"/>
+<g class="hoverY" transform="translate(690,150)">
+  <circle class="shield" r="26" fill="none" stroke="#63d2a5"/>
+  <circle class="shield" r="34" fill="none" stroke="#e3b873" style="animation-delay:-1.3s"/>
+  <g fill="#f4efe4" opacity=".92">
+    <circle cx="0" cy="-12" r="4.5"/>
+    <path d="M0 -7 C -7 -2, -9 12, -6 22 L6 22 C 9 12, 7 -2, 0 -7 Z"/>
+    <path d="M-6 22 L-9 34 M6 22 L9 34" stroke="#f4efe4" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</g>
+
+<!-- copy -->
+<text class="f" x="44" y="56" font-size="22" fill="#e2513f" letter-spacing="5">天劫</text>
+<text class="m" x="112" y="55" font-size="13" fill="#6f8697" letter-spacing="3">CURRENT TRIBULATIONS</text>
+<path d="M44 70 H470" stroke="#e3b873" stroke-opacity=".18"/>
+
+<g class="mo" font-size="13.5" fill="#cfe6db">
+  <text x="44" y="106"><tspan fill="#e3b873">◈</tspan>  building — an agentic system that refuses to sleep</text>
+  <text x="44" y="136"><tspan fill="#e3b873">◈</tspan>  refining — Rust, low-level, one page at a time</text>
+  <text x="44" y="166"><tspan fill="#e3b873">◈</tspan>  seeking — open-source disciples &amp; collaborators</text>
+  <text x="44" y="196"><tspan fill="#e3b873">◈</tspan>  ask me about — Python, ML, and clean architecture</text>
+</g>
+<text class="f" x="44" y="222" font-size="11.5" fill="#4f6376">渡劫成仙，失败成盒 · pass and ascend, fail and respawn</text>
+</svg>

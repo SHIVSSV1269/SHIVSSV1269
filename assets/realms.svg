@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="860" height="430" role="img" aria-label="Cultivation realms - skill levels">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0c1117"/><stop offset="100%" stop-color="#10161e"/>
+  </linearGradient>
+  <linearGradient id="qi" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#2f8f6d"/><stop offset="70%" stop-color="#63d2a5"/><stop offset="100%" stop-color="#bff3dd"/>
+  </linearGradient>
+  <linearGradient id="qiGold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9a6d2c"/><stop offset="70%" stop-color="#e3b873"/><stop offset="100%" stop-color="#f9ecc9"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%"  stop-color="#ffffff" stop-opacity=".55"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="orb" x="-120%" y="-120%" width="340%" height="340%">
+    <feGaussianBlur stdDeviation="2.6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style><![CDATA[
+  .f  { font-family:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif; }
+  .m  { font-family:"Georgia","Iowan Old Style","Times New Roman",serif; }
+  .mo { font-family:"JetBrains Mono","SF Mono","Consolas",monospace; }
+  @keyframes sweep { 0% { transform: translateX(-120px); } 100% { transform: translateX(760px); } }
+  @keyframes pulse { 0%,100% { opacity:.35; } 50% { opacity:1; } }
+  @keyframes flow  { 0% { transform: translateY(0); opacity:0; } 12% { opacity:1; } 100% { transform: translateY(330px); opacity:0; } }
+  .sweep { animation: sweep 5.5s ease-in-out infinite; }
+  .sweep:nth-of-type(2) { animation-delay: .5s; }
+  .glowdot { animation: pulse 3s ease-in-out infinite; }
+  .flow  { animation: flow 4.5s linear infinite; }
+  @media (prefers-reduced-motion: reduce) { .sweep,.glowdot,.flow { animation: none; } }
+]]></style>
+
+<rect width="860" height="430" rx="14" fill="url(#bg)" stroke="#e3b873" stroke-opacity=".22"/>
+
+<!-- header -->
+<text class="f" x="36" y="50" font-size="24" fill="#e3b873" letter-spacing="4">修为境界</text>
+<text class="m" x="146" y="49" font-size="14" fill="#6f8697" letter-spacing="2">CULTIVATION REALMS</text>
+<text class="mo" x="824" y="49" font-size="12" fill="#4f6376" text-anchor="end">道行 / dao progress</text>
+<path d="M36 64 H824" stroke="#e3b873" stroke-opacity=".18"/>
+
+<!-- meridian channel on the left -->
+<path d="M22 80 V400" stroke="#63d2a5" stroke-opacity=".18" stroke-width="1.4"/>
+<g fill="#63d2a5">
+  <circle class="flow" cx="22" cy="80" r="2.4" opacity="0"/>
+  <circle class="flow" cx="22" cy="80" r="1.8" opacity="0" style="animation-delay:-1.6s"/>
+  <circle class="flow" cx="22" cy="80" r="2.1" opacity="0" style="animation-delay:-3.1s"/>
+</g>
+
+<!-- ROW 1 : 96 -->
+<g>
+  <text class="m" x="44" y="104" font-size="15" fill="#eae3d4">Python</text>
+  <text class="f" x="212" y="105" font-size="15" fill="#e3b873">大乘</text>
+  <text class="m" x="252" y="104" font-size="12" fill="#6f8697">Mahayana</text>
+  <rect x="380" y="95" width="380" height="9" rx="4.5" fill="#1b2530"/>
+  <rect x="380" y="95" height="9" rx="4.5" fill="url(#qiGold)" width="0">
+    <animate attributeName="width" from="0" to="365" dur="1.8s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <circle class="glowdot" cx="380" cy="99.5" r="4.5" fill="#f9ecc9" filter="url(#orb)">
+    <animate attributeName="cx" from="380" to="745" dur="1.8s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <text class="mo" x="824" y="104" font-size="12" fill="#e3b873" text-anchor="end">96</text>
+</g>
+
+<!-- ROW 2 : 90 -->
+<g>
+  <text class="m" x="44" y="156" font-size="15" fill="#eae3d4">Machine Learning</text>
+  <text class="f" x="212" y="157" font-size="15" fill="#e3b873">化神</text>
+  <text class="m" x="252" y="156" font-size="12" fill="#6f8697">Deity Transformation</text>
+  <rect x="380" y="147" width="380" height="9" rx="4.5" fill="#1b2530"/>
+  <rect x="380" y="147" height="9" rx="4.5" fill="url(#qiGold)" width="0">
+    <animate attributeName="width" from="0" to="342" dur="1.8s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <circle class="glowdot" cx="380" cy="151.5" r="4.5" fill="#f9ecc9" filter="url(#orb)">
+    <animate attributeName="cx" from="380" to="722" dur="1.8s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <text class="mo" x="824" y="156" font-size="12" fill="#e3b873" text-anchor="end">90</text>
+</g>
+
+<!-- ROW 3 : 84 -->
+<g>
+  <text class="m" x="44" y="208" font-size="15" fill="#eae3d4">TypeScript</text>
+  <text class="f" x="212" y="209" font-size="15" fill="#8fd9bb">元婴</text>
+  <text class="m" x="252" y="208" font-size="12" fill="#6f8697">Nascent Soul</text>
+  <rect x="380" y="199" width="380" height="9" rx="4.5" fill="#1b2530"/>
+  <rect x="380" y="199" height="9" rx="4.5" fill="url(#qi)" width="0">
+    <animate attributeName="width" from="0" to="319" dur="1.8s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <circle class="glowdot" cx="380" cy="203.5" r="4.5" fill="#bff3dd" filter="url(#orb)">
+    <animate attributeName="cx" from="380" to="699" dur="1.8s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <text class="mo" x="824" y="208" font-size="12" fill="#63d2a5" text-anchor="end">84</text>
+</g>
+
+<!-- ROW 4 : 78 -->
+<g>
+  <text class="m" x="44" y="260" font-size="15" fill="#eae3d4">React / Next.js</text>
+  <text class="f" x="212" y="261" font-size="15" fill="#8fd9bb">金丹</text>
+  <text class="m" x="252" y="260" font-size="12" fill="#6f8697">Core Formation</text>
+  <rect x="380" y="251" width="380" height="9" rx="4.5" fill="#1b2530"/>
+  <rect x="380" y="251" height="9" rx="4.5" fill="url(#qi)" width="0">
+    <animate attributeName="width" from="0" to="296" dur="1.8s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <circle class="glowdot" cx="380" cy="255.5" r="4.5" fill="#bff3dd" filter="url(#orb)">
+    <animate attributeName="cx" from="380" to="676" dur="1.8s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <text class="mo" x="824" y="260" font-size="12" fill="#63d2a5" text-anchor="end">78</text>
+</g>
+
+<!-- ROW 5 : 70 -->
+<g>
+  <text class="m" x="44" y="312" font-size="15" fill="#eae3d4">Docker / Cloud</text>
+  <text class="f" x="212" y="313" font-size="15" fill="#8fd9bb">筑基</text>
+  <text class="m" x="252" y="312" font-size="12" fill="#6f8697">Foundation Establishment</text>
+  <rect x="380" y="303" width="380" height="9" rx="4.5" fill="#1b2530"/>
+  <rect x="380" y="303" height="9" rx="4.5" fill="url(#qi)" width="0">
+    <animate attributeName="width" from="0" to="266" dur="1.8s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <circle class="glowdot" cx="380" cy="307.5" r="4.5" fill="#bff3dd" filter="url(#orb)">
+    <animate attributeName="cx" from="380" to="646" dur="1.8s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <text class="mo" x="824" y="312" font-size="12" fill="#63d2a5" text-anchor="end">70</text>
+</g>
+
+<!-- ROW 6 : 62 -->
+<g>
+  <text class="m" x="44" y="364" font-size="15" fill="#eae3d4">Rust / Systems</text>
+  <text class="f" x="212" y="365" font-size="15" fill="#8fd9bb">炼气</text>
+  <text class="m" x="252" y="364" font-size="12" fill="#6f8697">Qi Condensation</text>
+  <rect x="380" y="355" width="380" height="9" rx="4.5" fill="#1b2530"/>
+  <rect x="380" y="355" height="9" rx="4.5" fill="url(#qi)" width="0">
+    <animate attributeName="width" from="0" to="236" dur="1.8s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <circle class="glowdot" cx="380" cy="359.5" r="4.5" fill="#bff3dd" filter="url(#orb)">
+    <animate attributeName="cx" from="380" to="616" dur="1.8s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <text class="mo" x="824" y="364" font-size="12" fill="#63d2a5" text-anchor="end">62</text>
+</g>
+
+<!-- shimmer sweeps over the whole panel -->
+<g opacity=".07">
+  <rect class="sweep" x="0" y="80" width="90" height="320" fill="url(#shine)"/>
+  <rect class="sweep" x="0" y="80" width="50" height="320" fill="url(#shine)"/>
+</g>
+
+<text class="f" x="36" y="404" font-size="12" fill="#4f6376">境界无止 · the ladder has no top rung</text>
+</svg>

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560" role="img" aria-label="Bagua formation - tech stack">
+<defs>
+  <radialGradient id="core" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"  stop-color="#e3b873" stop-opacity=".30"/>
+    <stop offset="70%" stop-color="#63d2a5" stop-opacity=".06"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="g2" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style><![CDATA[
+  .f  { font-family:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif; }
+  .m  { font-family:"Georgia","Iowan Old Style","Times New Roman",serif; }
+  @keyframes breathe { 0%,100% { opacity:.30; } 50% { opacity:.85; } }
+  @keyframes core    { 0%,100% { opacity:.5; transform: scale(1); } 50% { opacity:1; transform: scale(1.06); } }
+  .breathe { animation: breathe 5s ease-in-out infinite; }
+  .b2 { animation-delay:-1.2s; } .b3 { animation-delay:-2.4s; } .b4 { animation-delay:-3.6s; }
+  @media (prefers-reduced-motion: reduce) { .breathe { animation: none; } }
+]]></style>
+
+<rect width="560" height="560" rx="18" fill="#0b1016" stroke="#e3b873" stroke-opacity=".18"/>
+<circle cx="280" cy="280" r="210" fill="url(#core)"/>
+
+<!-- formation guide circles -->
+<g fill="none" stroke="#e3b873" stroke-opacity=".16">
+  <circle cx="280" cy="280" r="205"/>
+  <circle cx="280" cy="280" r="146"/>
+  <circle cx="280" cy="280" r="60" stroke-opacity=".3"/>
+</g>
+
+<!-- the array: two interlocking squares (八卦阵) -->
+<g fill="none" stroke="#63d2a5" stroke-width="1" opacity=".35">
+  <rect class="breathe" x="176" y="176" width="208" height="208" transform="rotate(0 280 280)"/>
+  <rect class="breathe b3" x="176" y="176" width="208" height="208" transform="rotate(45 280 280)"/>
+</g>
+
+<!-- rotating ring of trigrams -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 280 280" to="360 280 280" dur="72s" repeatCount="indefinite"/>
+
+  <!-- ☰ Python -->
+  <g transform="translate(280,280) rotate(0) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#e3b873" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H13"/><path d="M-13 0 H13"/><path d="M-13 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">Python</text>
+    </g>
+  </g>
+
+  <!-- ☱ TypeScript -->
+  <g transform="translate(280,280) rotate(45) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H13"/><path d="M-13 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">TypeScript</text>
+    </g>
+  </g>
+
+  <!-- ☲ React -->
+  <g transform="translate(280,280) rotate(90) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#e3b873" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">React</text>
+    </g>
+  </g>
+
+  <!-- ☳ Node.js -->
+  <g transform="translate(280,280) rotate(135) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">Node.js</text>
+    </g>
+  </g>
+
+  <!-- ☷ PostgreSQL -->
+  <g transform="translate(280,280) rotate(180) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#e3b873" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">PostgreSQL</text>
+    </g>
+  </g>
+
+  <!-- ☶ Docker -->
+  <g transform="translate(280,280) rotate(225) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">Docker</text>
+    </g>
+  </g>
+
+  <!-- ☵ PyTorch -->
+  <g transform="translate(280,280) rotate(270) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#e3b873" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">PyTorch</text>
+    </g>
+  </g>
+
+  <!-- ☴ Git -->
+  <g transform="translate(280,280) rotate(315) translate(0,-175)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+      <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
+      <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
+        <path d="M-13 -8 H13"/><path d="M-13 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>
+      </g>
+      <text class="m" y="52" font-size="13" fill="#cfe6db" text-anchor="middle">Git</text>
+    </g>
+  </g>
+</g>
+
+<!-- pulsing qi orbiting the inner circle -->
+<g>
+  <circle r="3" fill="#63d2a5" filter="url(#g2)">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M280,134 A146,146 0 1,1 279.9,134"/>
+  </circle>
+  <circle r="2.2" fill="#e3b873" filter="url(#g2)">
+    <animateMotion dur="9s" begin="-4.5s" repeatCount="indefinite" path="M280,134 A146,146 0 1,1 279.9,134"/>
+  </circle>
+</g>
+
+<!-- center taiji -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="360 280 280" to="0 280 280" dur="30s" repeatCount="indefinite"/>
+  <g transform="translate(280,280) scale(0.52)">
+    <circle r="100" fill="#f4efe4"/>
+    <path d="M 0,-100 A 100,100 0 0,1 0,100 A 50,50 0 0,1 0,0 A 50,50 0 0,0 0,-100 Z" fill="#10151c"/>
+    <circle cx="0" cy="-50" r="16" fill="#10151c"/>
+    <circle cx="0" cy="50"  r="16" fill="#f4efe4"/>
+    <circle r="100" fill="none" stroke="#e3b873" stroke-width="3" opacity=".9"/>
+  </g>
+</g>
+
+<text class="f" x="280" y="530" font-size="17" fill="#e3b873" text-anchor="middle" letter-spacing="6">八卦阵 · 技艺</text>
+<text class="m" x="280" y="35" font-size="12" fill="#5c7284" text-anchor="middle" letter-spacing="4">THE EIGHT-TRIGRAM FORMATION</text>
+</svg>

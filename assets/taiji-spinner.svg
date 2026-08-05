@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="rotating taiji">
+<style><![CDATA[
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinBack { to { transform: rotate(-360deg); } }
+  @keyframes pulse { 0%,100% { opacity:.25; } 50% { opacity:.7; } }
+  .t { animation: spin 12s linear infinite; transform-origin: 60px 60px; }
+  .r { animation: spinBack 20s linear infinite; transform-origin: 60px 60px; }
+  .p { animation: pulse 4s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) { .t,.r,.p { animation: none; } }
+]]></style>
+<g class="r" stroke="#e3b873" stroke-width="1" fill="none" opacity=".5">
+  <circle cx="60" cy="60" r="55" stroke-dasharray="4 9"/>
+</g>
+<circle class="p" cx="60" cy="60" r="49" fill="none" stroke="#63d2a5" stroke-width=".8"/>
+<g class="t">
+  <g transform="translate(60,60) scale(0.44)">
+    <circle r="100" fill="#f4efe4"/>
+    <path d="M 0,-100 A 100,100 0 0,1 0,100 A 50,50 0 0,1 0,0 A 50,50 0 0,0 0,-100 Z" fill="#10151c"/>
+    <circle cx="0" cy="-50" r="16" fill="#10151c"/>
+    <circle cx="0" cy="50"  r="16" fill="#f4efe4"/>
+    <circle r="100" fill="none" stroke="#e3b873" stroke-width="3" opacity=".9"/>
+  </g>
+</g>
+</svg>
