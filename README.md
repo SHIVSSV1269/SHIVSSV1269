@@ -88,15 +88,11 @@ I sat down at a keyboard one day and never got back up.
 
 ### The Mountain Retreat
 
-<!-- These cards come from github-readme-stats (a third-party service).
-     Delete this block if you'd rather keep the profile 100% self-hosted. -->
+<!-- Self-hosted. scripts/build_stats.py pulls the numbers from the GitHub API and
+     redraws this card; a workflow in this repo reruns it every day. No third-party
+     image services, so nothing here can 503 on you. -->
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SHIVSSV1269&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E3B873&icon_color=63D2A5&text_color=CFE6DB&include_all_commits=true&rank_icon=percentile" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHIVSSV1269&layout=compact&hide_border=true&bg_color=0D1117&title_color=E3B873&text_color=CFE6DB&langs_count=8" alt="top languages" />
-
-<br/>
-
-<img height="165" src="https://streak-stats.demolab.com?user=SHIVSSV1269&hide_border=true&background=0D1117&ring=E3B873&fire=E2513F&currStreakLabel=E3B873&sideLabels=CFE6DB&currStreakNum=F6E3B4&sideNums=63D2A5&dates=4F6376" alt="streak" />
+<img src="assets/stats.svg" alt="GitHub statistics" width="94%" />
 
 </div>
 

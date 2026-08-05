@@ -52,7 +52,7 @@
 
   <!-- Lake -->
   <g transform="translate(280,280) rotate(45) translate(0,-175)">
-    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="-45" to="-405" dur="72s" repeatCount="indefinite"/>
       <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
       <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
         <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H13"/><path d="M-13 8 H13"/>
@@ -64,7 +64,7 @@
 
   <!-- Fire -->
   <g transform="translate(280,280) rotate(90) translate(0,-175)">
-    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="-90" to="-450" dur="72s" repeatCount="indefinite"/>
       <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
       <g stroke="#e3b873" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
         <path d="M-13 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H13"/>
@@ -76,7 +76,7 @@
 
   <!-- Thunder -->
   <g transform="translate(280,280) rotate(135) translate(0,-175)">
-    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="-135" to="-495" dur="72s" repeatCount="indefinite"/>
       <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
       <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
         <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H13"/>
@@ -88,7 +88,7 @@
 
   <!-- Earth -->
   <g transform="translate(280,280) rotate(180) translate(0,-175)">
-    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="-180" to="-540" dur="72s" repeatCount="indefinite"/>
       <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
       <g stroke="#e3b873" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
         <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>
@@ -100,7 +100,7 @@
 
   <!-- Mountain -->
   <g transform="translate(280,280) rotate(225) translate(0,-175)">
-    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="-225" to="-585" dur="72s" repeatCount="indefinite"/>
       <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
       <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
         <path d="M-13 -8 H13"/><path d="M-13 0 H-4"/><path d="M4 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>
@@ -112,7 +112,7 @@
 
   <!-- Water -->
   <g transform="translate(280,280) rotate(270) translate(0,-175)">
-    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="-270" to="-630" dur="72s" repeatCount="indefinite"/>
       <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
       <g stroke="#e3b873" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
         <path d="M-13 -8 H-4"/><path d="M4 -8 H13"/><path d="M-13 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>
@@ -124,7 +124,7 @@
 
   <!-- Wind -->
   <g transform="translate(280,280) rotate(315) translate(0,-175)">
-    <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="72s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="-315" to="-675" dur="72s" repeatCount="indefinite"/>
       <circle r="30" fill="#101820" stroke="#e3b873" stroke-opacity=".45"/>
       <g stroke="#63d2a5" stroke-width="3.2" stroke-linecap="round" filter="url(#g2)">
         <path d="M-13 -8 H13"/><path d="M-13 0 H13"/><path d="M-13 8 H-4"/><path d="M4 8 H13"/>

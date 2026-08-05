@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="860" height="430" role="img" aria-label="GitHub statistics for SHIVSSV1269">
+<defs>
+  <linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0c1117"/><stop offset="100%" stop-color="#10161e"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#e3b873"/><stop offset="100%" stop-color="#f6e3b4"/>
+  </linearGradient>
+  <filter id="sglow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style><![CDATA[
+  .m  { font-family:"Georgia","Iowan Old Style","Times New Roman",serif; }
+  .mo { font-family:"JetBrains Mono","SF Mono","Consolas",monospace; }
+  .num { font-family:"Georgia",serif; font-size:30px; fill:url(#gold); }
+  .lbl { font-family:"Georgia",serif; font-size:12px; fill:#6f8697; letter-spacing:1.4px; }
+  .leg { font-family:"Georgia",serif; font-size:13px; fill:#eae3d4; }
+  .legpct { font-family:"JetBrains Mono","Consolas",monospace; font-size:12px; fill:#6f8697; text-anchor:end; }
+  @keyframes slide { from { opacity:0; transform: translateY(10px); } to { opacity:1; transform: none; } }
+  @keyframes spin  { to { transform: rotate(360deg); } }
+  @keyframes pulse { 0%,100% { opacity:.30; } 50% { opacity:.75; } }
+  .tile { opacity:0; animation: slide .7s ease-out forwards; }
+  .yy   { animation: spin 24s linear infinite; transform-origin: 700px 214px; }
+  .halo { animation: pulse 5s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .tile { opacity:1; animation:none; } .yy,.halo { animation:none; }
+  }
+]]></style>
+
+<rect width="860" height="430" rx="14" fill="url(#sbg)" stroke="#e3b873" stroke-opacity=".22"/>
+
+<text class="m" x="36" y="50" font-size="22" fill="#e3b873" letter-spacing="5">THE RECORD</text>
+<text class="mo" x="824" y="49" font-size="11" fill="#4f6376" text-anchor="end">SELF-HOSTED &#183; 05 AUG 2026</text>
+<path d="M36 64 H824" stroke="#e3b873" stroke-opacity=".18"/>
+
+  <g class="tile" style="animation-delay:0.25s">
+    <text class="num" x="44" y="116">31</text>
+    <text class="lbl" x="44" y="136">commits this year</text>
+    <path d="M44 146 H194" stroke="#e3b873" stroke-opacity=".14"/>
+  </g>
+  <g class="tile" style="animation-delay:0.36s">
+    <text class="num" x="254" y="116">44</text>
+    <text class="lbl" x="254" y="136">total contributions</text>
+    <path d="M254 146 H404" stroke="#e3b873" stroke-opacity=".14"/>
+  </g>
+  <g class="tile" style="animation-delay:0.47s">
+    <text class="num" x="44" y="192">22</text>
+    <text class="lbl" x="44" y="212">stars earned</text>
+    <path d="M44 222 H194" stroke="#e3b873" stroke-opacity=".14"/>
+  </g>
+  <g class="tile" style="animation-delay:0.58s">
+    <text class="num" x="254" y="192">13</text>
+    <text class="lbl" x="254" y="212">public repositories</text>
+    <path d="M254 222 H404" stroke="#e3b873" stroke-opacity=".14"/>
+  </g>
+  <g class="tile" style="animation-delay:0.69s">
+    <text class="num" x="44" y="268">0</text>
+    <text class="lbl" x="44" y="288">pull requests opened</text>
+    <path d="M44 298 H194" stroke="#e3b873" stroke-opacity=".14"/>
+  </g>
+  <g class="tile" style="animation-delay:0.80s">
+    <text class="num" x="254" y="268">6</text>
+    <text class="lbl" x="254" y="288">followers</text>
+    <path d="M254 298 H404" stroke="#e3b873" stroke-opacity=".14"/>
+  </g>
+
+<!-- language ring -->
+<circle class="halo" cx="700" cy="214" r="114" fill="none" stroke="#e3b873" stroke-width=".7" opacity=".3"/>
+<circle cx="700" cy="214" r="92" fill="none" stroke="#1b2530" stroke-width="17"/>
+<g filter="url(#sglow)">
+    <circle cx="700" cy="214" r="92" fill="none" stroke="#e3b873" stroke-width="17"
+            stroke-dasharray="251.64 326.41" stroke-dashoffset="-0.00"
+            stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
+      <animate attributeName="stroke-dasharray" from="0 578.05"
+               to="251.64 326.41" dur="1.1s" begin="0.30s"
+               fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+    <circle cx="700" cy="214" r="92" fill="none" stroke="#63d2a5" stroke-width="17"
+            stroke-dasharray="96.03 482.02" stroke-dashoffset="-251.64"
+            stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
+      <animate attributeName="stroke-dasharray" from="0 578.05"
+               to="96.03 482.02" dur="1.1s" begin="0.46s"
+               fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+    <circle cx="700" cy="214" r="92" fill="none" stroke="#c98f42" stroke-width="17"
+            stroke-dasharray="84.60 493.45" stroke-dashoffset="-347.67"
+            stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
+      <animate attributeName="stroke-dasharray" from="0 578.05"
+               to="84.60 493.45" dur="1.1s" begin="0.62s"
+               fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+    <circle cx="700" cy="214" r="92" fill="none" stroke="#9ec7b6" stroke-width="17"
+            stroke-dasharray="57.78 520.28" stroke-dashoffset="-432.27"
+            stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
+      <animate attributeName="stroke-dasharray" from="0 578.05"
+               to="57.78 520.28" dur="1.1s" begin="0.78s"
+               fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+    <circle cx="700" cy="214" r="92" fill="none" stroke="#a8271c" stroke-width="17"
+            stroke-dasharray="42.55 535.51" stroke-dashoffset="-490.05"
+            stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
+      <animate attributeName="stroke-dasharray" from="0 578.05"
+               to="42.55 535.51" dur="1.1s" begin="0.94s"
+               fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+    <circle cx="700" cy="214" r="92" fill="none" stroke="#4d6a80" stroke-width="17"
+            stroke-dasharray="45.46 532.59" stroke-dashoffset="-532.59"
+            stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
+      <animate attributeName="stroke-dasharray" from="0 578.05"
+               to="45.46 532.59" dur="1.1s" begin="1.10s"
+               fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle></g>
+<g class="yy">
+  <g transform="translate(700,214) scale(0.33)">
+    <circle r="100" fill="#eae3d4"/>
+    <path d="M 0,-100 A 100,100 0 0,1 0,100 A 50,50 0 0,1 0,0 A 50,50 0 0,0 0,-100 Z" fill="#10151c"/>
+    <circle cx="0" cy="-50" r="16" fill="#10151c"/>
+    <circle cx="0" cy="50"  r="16" fill="#eae3d4"/>
+    <circle r="100" fill="none" stroke="#e3b873" stroke-width="4" opacity=".9"/>
+  </g>
+</g>
+<text class="m" x="472" y="100" font-size="12" fill="#6f8697" letter-spacing="3">ELEMENTS WIELDED</text>
+
+    <g class="tile" style="animation-delay:0.50s">
+      <rect x="472" y="123" width="10" height="10" rx="2" fill="#e3b873"/>
+      <text class="leg" x="492" y="132">Jupyter Notebook</text>
+      <text class="legpct" x="592" y="132">43.5%</text>
+    </g>
+    <g class="tile" style="animation-delay:0.66s">
+      <rect x="472" y="149" width="10" height="10" rx="2" fill="#63d2a5"/>
+      <text class="leg" x="492" y="158">TypeScript</text>
+      <text class="legpct" x="592" y="158">16.6%</text>
+    </g>
+    <g class="tile" style="animation-delay:0.82s">
+      <rect x="472" y="175" width="10" height="10" rx="2" fill="#c98f42"/>
+      <text class="leg" x="492" y="184">JavaScript</text>
+      <text class="legpct" x="592" y="184">14.6%</text>
+    </g>
+    <g class="tile" style="animation-delay:0.98s">
+      <rect x="472" y="201" width="10" height="10" rx="2" fill="#9ec7b6"/>
+      <text class="leg" x="492" y="210">Python</text>
+      <text class="legpct" x="592" y="210">10.0%</text>
+    </g>
+    <g class="tile" style="animation-delay:1.14s">
+      <rect x="472" y="227" width="10" height="10" rx="2" fill="#a8271c"/>
+      <text class="leg" x="492" y="236">CSS</text>
+      <text class="legpct" x="592" y="236">7.4%</text>
+    </g>
+    <g class="tile" style="animation-delay:1.30s">
+      <rect x="472" y="253" width="10" height="10" rx="2" fill="#4d6a80"/>
+      <text class="leg" x="492" y="262">Other</text>
+      <text class="legpct" x="592" y="262">7.9%</text>
+    </g>
+
+<text class="m" x="36" y="404" font-size="12" fill="#4f6376">measured, not boasted &#183; regenerated daily by a workflow in this repo</text>
+</svg>

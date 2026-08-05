@@ -54,10 +54,22 @@ the ring keeps spinning either way.
 
 **`assets/yin-yang.svg`**, **`assets/divider.svg`** — reusable ornaments, no text.
 
-**`README.md`** — the layout. The stats cards under *The Mountain Retreat* come from
-third-party services (`github-readme-stats`, `streak-stats`); delete that block if you
-want the profile to depend on nothing but this repo. Update the *Fellow Travelers*
-badges with your real links.
+**`assets/stats.svg`** — do not hand-edit; it is generated.
+`scripts/build_stats.py` queries the GitHub GraphQL API and redraws the card, and
+`.github/workflows/update-stats.yml` reruns it daily (plus on demand from the Actions
+tab). Regenerate it yourself with:
+
+```bash
+GH_TOKEN=$(gh auth token) python scripts/build_stats.py
+```
+
+Change which six numbers appear by editing the `tiles` list in `render()`; the language
+ring takes the top five languages by bytes across your non-fork public repos.
+This replaced `github-readme-stats` and `streak-stats`, which are shared public
+services that regularly return 503 and take your profile down with them.
+
+**`README.md`** — the layout. Update the *Fellow Travelers* badges with your real
+links.
 
 ## Notes
 
