@@ -31,6 +31,7 @@ I sat down at a keyboard one day and never got back up.
 - **School** — self-taught, still sweeping the courtyard
 - **Method** — read the source, break it, understand it, rewrite it
 - **Focus** — backends that don't fall over, models that actually ship
+- **Leverage** — if I've done it twice by hand, it becomes an n8n workflow
 - **Vow** — no dead code, no dead docs, no dead links
 - **Balance** — yin is the tests, yang is the feature. Ship neither alone.
 
@@ -65,6 +66,20 @@ I sat down at a keyboard one day and never got back up.
 <div align="center">
 
 <img src="assets/tribulation.svg" alt="Trials of the moment — what I'm working on" width="94%" />
+
+</div>
+
+<div align="center">
+<img src="assets/divider.svg" alt="" width="90%" />
+</div>
+
+<div align="center">
+
+### The Automation Array
+
+<img src="assets/automation.svg" alt="An n8n workflow — trigger, transform, branch, notify" width="94%" />
+
+<sub>webhook fires, data gets shaped, an agent enriches it, the store keeps it, and I get told — <b>n8n</b> holds the whole thing together while I sleep</sub>
 
 </div>
 

@@ -52,6 +52,14 @@ in `<text y="52">`; the small gray word above it is the trigram's name. The thre
 (yang) line, a split pair is a broken (yin) line. Reordering is just swapping labels —
 the ring keeps spinning either way.
 
+**`assets/automation.svg`** — an n8n workflow drawn as a live canvas.
+Five nodes wired left to right, with packets travelling the wires and each node
+lighting up in execution order. To re-shape the flow: every wire is a `<path id="wN">`
+in the wires group, and each packet is a `<circle>` whose `<mpath>` points at one of
+those ids — move a wire and its packet follows automatically. Node text is the
+`kind` line (small, grey) plus the `cap` line (the node's name). The accent bar colour
+marks node type: cinnabar for triggers, gold for logic, jade for actions.
+
 **`assets/yin-yang.svg`**, **`assets/divider.svg`** — reusable ornaments, no text.
 
 **`assets/stats.svg`** — do not hand-edit; it is generated.

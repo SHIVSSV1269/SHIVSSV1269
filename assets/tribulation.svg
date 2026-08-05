@@ -68,9 +68,9 @@
 
 <g class="mo" font-size="13.5" fill="#cfe6db">
   <text x="44" y="106"><tspan fill="#e3b873">&#9670;</tspan>  building — an agentic system that refuses to sleep</text>
-  <text x="44" y="136"><tspan fill="#e3b873">&#9670;</tspan>  refining — Rust, low-level, one page at a time</text>
-  <text x="44" y="166"><tspan fill="#e3b873">&#9670;</tspan>  seeking — open-source collaborators and sparring partners</text>
-  <text x="44" y="196"><tspan fill="#e3b873">&#9670;</tspan>  ask me about — Python, ML, and clean architecture</text>
+  <text x="44" y="136"><tspan fill="#e3b873">&#9670;</tspan>  wiring — n8n flows that do the boring half of the work</text>
+  <text x="44" y="166"><tspan fill="#e3b873">&#9670;</tspan>  refining — Rust, low-level, one page at a time</text>
+  <text x="44" y="196"><tspan fill="#e3b873">&#9670;</tspan>  ask me about — Python, ML, and automation that holds</text>
 </g>
 <text class="m" x="44" y="222" font-size="11.5" fill="#4f6376">survive the lightning and you ascend; fail and you respawn</text>
 </svg>
