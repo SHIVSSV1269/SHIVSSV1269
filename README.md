@@ -131,6 +131,4 @@ I sat down at a keyboard one day and never got back up.
 
 <sub>**may your builds be green and your merges clean**</sub>
 
-<sub><i>no snakes were fed contribution squares in the making of this profile</i></sub>
-
 </div>
