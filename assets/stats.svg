@@ -32,16 +32,16 @@
 <rect width="860" height="430" rx="14" fill="url(#sbg)" stroke="#e3b873" stroke-opacity=".22"/>
 
 <text class="m" x="36" y="50" font-size="22" fill="#e3b873" letter-spacing="5">THE RECORD</text>
-<text class="mo" x="824" y="49" font-size="11" fill="#4f6376" text-anchor="end">SELF-HOSTED &#183; 05 AUG 2026</text>
+<text class="mo" x="824" y="49" font-size="11" fill="#4f6376" text-anchor="end">SELF-HOSTED &#183; 06 AUG 2026</text>
 <path d="M36 64 H824" stroke="#e3b873" stroke-opacity=".18"/>
 
   <g class="tile" style="animation-delay:0.25s">
-    <text class="num" x="44" y="116">32</text>
+    <text class="num" x="44" y="116">34</text>
     <text class="lbl" x="44" y="136">commits this year</text>
     <path d="M44 146 H194" stroke="#e3b873" stroke-opacity=".14"/>
   </g>
   <g class="tile" style="animation-delay:0.36s">
-    <text class="num" x="254" y="116">45</text>
+    <text class="num" x="254" y="116">47</text>
     <text class="lbl" x="254" y="136">total contributions</text>
     <path d="M254 146 H404" stroke="#e3b873" stroke-opacity=".14"/>
   </g>
@@ -71,45 +71,45 @@
 <circle cx="700" cy="214" r="92" fill="none" stroke="#1b2530" stroke-width="17"/>
 <g filter="url(#sglow)">
     <circle cx="700" cy="214" r="92" fill="none" stroke="#e3b873" stroke-width="17"
-            stroke-dasharray="251.64 326.41" stroke-dashoffset="-0.00"
+            stroke-dasharray="249.36 328.69" stroke-dashoffset="-0.00"
             stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
       <animate attributeName="stroke-dasharray" from="0 578.05"
-               to="251.64 326.41" dur="1.1s" begin="0.30s"
+               to="249.36 328.69" dur="1.1s" begin="0.30s"
                fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </circle>
     <circle cx="700" cy="214" r="92" fill="none" stroke="#63d2a5" stroke-width="17"
-            stroke-dasharray="96.03 482.02" stroke-dashoffset="-251.64"
+            stroke-dasharray="95.16 482.89" stroke-dashoffset="-249.36"
             stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
       <animate attributeName="stroke-dasharray" from="0 578.05"
-               to="96.03 482.02" dur="1.1s" begin="0.46s"
+               to="95.16 482.89" dur="1.1s" begin="0.46s"
                fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </circle>
     <circle cx="700" cy="214" r="92" fill="none" stroke="#c98f42" stroke-width="17"
-            stroke-dasharray="84.60 493.45" stroke-dashoffset="-347.67"
+            stroke-dasharray="83.83 494.22" stroke-dashoffset="-344.52"
             stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
       <animate attributeName="stroke-dasharray" from="0 578.05"
-               to="84.60 493.45" dur="1.1s" begin="0.62s"
+               to="83.83 494.22" dur="1.1s" begin="0.62s"
                fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </circle>
     <circle cx="700" cy="214" r="92" fill="none" stroke="#9ec7b6" stroke-width="17"
-            stroke-dasharray="57.78 520.28" stroke-dashoffset="-432.27"
+            stroke-dasharray="62.40 515.65" stroke-dashoffset="-428.36"
             stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
       <animate attributeName="stroke-dasharray" from="0 578.05"
-               to="57.78 520.28" dur="1.1s" begin="0.78s"
+               to="62.40 515.65" dur="1.1s" begin="0.78s"
                fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </circle>
     <circle cx="700" cy="214" r="92" fill="none" stroke="#a8271c" stroke-width="17"
-            stroke-dasharray="42.55 535.51" stroke-dashoffset="-490.05"
+            stroke-dasharray="42.16 535.89" stroke-dashoffset="-490.76"
             stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
       <animate attributeName="stroke-dasharray" from="0 578.05"
-               to="42.55 535.51" dur="1.1s" begin="0.94s"
+               to="42.16 535.89" dur="1.1s" begin="0.94s"
                fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </circle>
     <circle cx="700" cy="214" r="92" fill="none" stroke="#4d6a80" stroke-width="17"
-            stroke-dasharray="45.46 532.59" stroke-dashoffset="-532.59"
+            stroke-dasharray="45.13 532.92" stroke-dashoffset="-532.92"
             stroke-linecap="butt" opacity=".92" transform="rotate(-90 700 214)">
       <animate attributeName="stroke-dasharray" from="0 578.05"
-               to="45.46 532.59" dur="1.1s" begin="1.10s"
+               to="45.13 532.92" dur="1.1s" begin="1.10s"
                fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </circle></g>
 <g class="yy">
@@ -126,32 +126,32 @@
     <g class="tile" style="animation-delay:0.50s">
       <rect x="472" y="123" width="10" height="10" rx="2" fill="#e3b873"/>
       <text class="leg" x="492" y="132">Jupyter Notebook</text>
-      <text class="legpct" x="592" y="132">43.5%</text>
+      <text class="legpct" x="592" y="132">43.1%</text>
     </g>
     <g class="tile" style="animation-delay:0.66s">
       <rect x="472" y="149" width="10" height="10" rx="2" fill="#63d2a5"/>
       <text class="leg" x="492" y="158">TypeScript</text>
-      <text class="legpct" x="592" y="158">16.6%</text>
+      <text class="legpct" x="592" y="158">16.5%</text>
     </g>
     <g class="tile" style="animation-delay:0.82s">
       <rect x="472" y="175" width="10" height="10" rx="2" fill="#c98f42"/>
       <text class="leg" x="492" y="184">JavaScript</text>
-      <text class="legpct" x="592" y="184">14.6%</text>
+      <text class="legpct" x="592" y="184">14.5%</text>
     </g>
     <g class="tile" style="animation-delay:0.98s">
       <rect x="472" y="201" width="10" height="10" rx="2" fill="#9ec7b6"/>
       <text class="leg" x="492" y="210">Python</text>
-      <text class="legpct" x="592" y="210">10.0%</text>
+      <text class="legpct" x="592" y="210">10.8%</text>
     </g>
     <g class="tile" style="animation-delay:1.14s">
       <rect x="472" y="227" width="10" height="10" rx="2" fill="#a8271c"/>
       <text class="leg" x="492" y="236">CSS</text>
-      <text class="legpct" x="592" y="236">7.4%</text>
+      <text class="legpct" x="592" y="236">7.3%</text>
     </g>
     <g class="tile" style="animation-delay:1.30s">
       <rect x="472" y="253" width="10" height="10" rx="2" fill="#4d6a80"/>
       <text class="leg" x="492" y="262">Other</text>
-      <text class="legpct" x="592" y="262">7.9%</text>
+      <text class="legpct" x="592" y="262">7.8%</text>
     </g>
 
 <text class="m" x="36" y="404" font-size="12" fill="#4f6376">measured, not boasted &#183; regenerated daily by a workflow in this repo</text>
