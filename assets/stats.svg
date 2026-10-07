@@ -32,7 +32,7 @@
 <rect width="860" height="430" rx="14" fill="url(#sbg)" stroke="#e3b873" stroke-opacity=".22"/>
 
 <text class="m" x="36" y="50" font-size="22" fill="#e3b873" letter-spacing="5">THE RECORD</text>
-<text class="mo" x="824" y="49" font-size="11" fill="#4f6376" text-anchor="end">SELF-HOSTED &#183; 06 OCT 2026</text>
+<text class="mo" x="824" y="49" font-size="11" fill="#4f6376" text-anchor="end">SELF-HOSTED &#183; 07 OCT 2026</text>
 <path d="M36 64 H824" stroke="#e3b873" stroke-opacity=".18"/>
 
   <g class="tile" style="animation-delay:0.25s">
@@ -46,7 +46,7 @@
     <path d="M254 146 H404" stroke="#e3b873" stroke-opacity=".14"/>
   </g>
   <g class="tile" style="animation-delay:0.47s">
-    <text class="num" x="44" y="192">13</text>
+    <text class="num" x="44" y="192">14</text>
     <text class="lbl" x="44" y="212">stars earned</text>
     <path d="M44 222 H194" stroke="#e3b873" stroke-opacity=".14"/>
   </g>
